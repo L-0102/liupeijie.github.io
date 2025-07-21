@@ -1,21 +1,12 @@
-### **Software Engineer Intern**  
-**January 2025 – June 2025 | ByteDance**  
 
-Worked on the development and optimization of large-scale recommendation systems, focusing on algorithm improvements and system efficiency enhancements. Contributed to real-time data processing pipelines and model optimization for personalized content delivery.
+### **大模型应用实习生**
 
-#### Key Contributions:  
-- Developed and optimized recommendation algorithms to enhance user engagement and content relevance.  
-- Designed and implemented real-time data processing workflows to improve model inference efficiency.  
-- Conducted A/B testing and performance analysis to refine recommendation strategies based on user behavior data.  
+**2024年8月 – 2025年6月 | 智诚科技有限公司**
 
----
+构建一种基于大语言模型的出行调查模拟框架，通过增强模型的推理能力以增强出行行为的模拟。具体来说，通过构建 Chain-of-Trips 数据集（出行链-->思维链），采用监督微调（SFT）与强化学习（GRPO）相结合的双阶段训练策略，有效提升了模型出行模拟与动机推理的能力。**（清华贵州大数据优秀专业实践项目）**
 
-### **软件工程师实习生**  
-**2025年1月 – 2025年6月 | 字节跳动**  
+#### 主要贡献:
 
-负责大规模推荐系统的开发与优化，专注于算法改进和系统效率提升。参与实时数据处理管道的构建，并优化模型推理流程，以提升个性化内容推荐效果。
-
-#### 主要贡献:  
-- 研发并优化推荐算法，提高用户互动率和内容相关性。  
-- 设计并实现实时数据处理流程，提升模型推理的计算效率。  
-- 进行A/B测试与性能分析，基于用户行为数据优化推荐策略。
+- 应用大推理模型进行出行调查模拟
+- 构建 Chain-of-Trips 数据集（出行链-->思维链）
+- 特定领域泛化：监督微调（SFT）与强化学习（GRPO）相结合的双阶段训练策略
