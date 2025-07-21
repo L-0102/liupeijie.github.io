@@ -4,8 +4,9 @@ I am currently studying for a master's degree in the Department of Electronic En
 
 #### Email
 
-`<code>`liupj23@mails.tsinghua.edu.cn `</code>`
-`<code>`1941376717@qq.com `</code>`
+liupj23@mails.tsinghua.edu.cn
+
+1941376717@qq.com
 
 #### Education
 
