@@ -56,8 +56,6 @@ Analyzed **hundreds of millions** of records from Kuaishou and Bilibili to revea
 
 ## 📬 Contact
 
-* **Email** :
-
-  `liupj23@mails.tsinghua.edu.cn`        `1941376717@qq.com`
+* **Email** :  `liupj23@mails.tsinghua.edu.cn`   &&    `1941376717@qq.com`
 * **GitHub** : [L-0102](https://github.com/L-0102)
 * **Google Scholar** : [Profile](https://scholar.google.com/citations?user=NKWRhFoAAAAJ&hl=en)
