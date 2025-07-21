@@ -1,11 +1,14 @@
-### **大模型应用实习生**
 
-**2024年8月 – 2025年6月 | 智诚科技有限公司**
+### **Large Language Model Application Intern**
 
-构建一种基于大语言模型的出行调查模拟框架，通过增强模型的推理能力以增强出行行为的模拟。具体来说，通过构建 Chain-of-Trips 数据集（出行链-->思维链），采用监督微调（SFT）与强化学习（GRPO）相结合的双阶段训练策略，有效提升了模型出行模拟与动机推理的能力。**（清华贵州大数据优秀专业实践项目）**
+**Aug 2024 – Jun 2025 | Zhicheng Technology Co., Ltd.**
 
-#### 主要贡献:
+Developed a travel survey simulation framework based on large language models, enhancing the model's reasoning capabilities to better replicate travel behavior. Specifically, constructed the *Chain-of-Trips* dataset (linking travel chains to chains of thought) and implemented a two-stage training strategy combining Supervised Fine-Tuning (SFT) and Reinforcement Learning via GRPO. This approach significantly improved the model’s performance in travel behavior simulation and motivation inference.
 
-- 应用大推理模型进行出行调查模拟
-- 构建 Chain-of-Trips 数据集（出行链-->思维链）
-- 特定领域泛化：监督微调（SFT）与强化学习（GRPO）相结合的双阶段训练策略
+**(Selected as an Outstanding Professional Practice Project by Tsinghua Guizhou Big Data Program)**
+
+#### Key Contributions:
+
+* Applied large-scale reasoning models for travel survey simulation
+* Built the *Chain-of-Trips* dataset (from travel chains to chains of thought)
+* Achieved domain-specific generalization through a two-stage training strategy combining SFT and GRPO
