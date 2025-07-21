@@ -7,5 +7,5 @@
 
 ## Preprint
 
-- Chen Zhilong*, **Peijie Liu***, Jinghua Piao, Fengli Xu, and Yong Li. "Shorter is different: Characterizing the dynamics of short-form video platforms." *arXiv preprint arXiv:2410.16058* (2024
+- Chen Zhilong*, **Peijie Liu***, Jinghua Piao, Fengli Xu, and Yong Li. "Shorter is different: Characterizing the dynamics of short-form video platforms." *arXiv preprint arXiv:2410.16058* (2024).
 - Shang, Yu*, **Peijie Liu***, Yuwei Yan, Zijing Wu, Leheng Sheng, Yuanqing Yu, Chumeng Jiang et al. "AgentRecBench: Benchmarking LLM Agent-based Personalized Recommender Systems." *arXiv preprint arXiv:2505.19623* (2025).
