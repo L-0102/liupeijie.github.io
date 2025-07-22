@@ -1,7 +1,7 @@
 ## 📚 **Published**
 
-* Zhang, Yunke, Yiran Fan,  **Peijie Liu** , Fengli Xu, and Yong Li. "Cyber Food Swamps: Investigating the Impacts of Online-to-Offline Food Delivery Platforms on Healthy Food Choices." In   *Proceedings of the International AAAI Conference on Web and Social Media* , vol. 19, pp. 2260-2272. 2025.   [Link to Paper](https://link_to_paper_or_conference_website/)
-* **Liu, Peijie** , Fengli Xu, and Yong Li. "Token Signature: Predicting Chain-of-Thought Gains with Token Decoding Feature in Large Language Models."  *International Conference on Machine Learning* . PMLR, 2025.  [Link to Paper](https://link_to_paper_or_conference_website/)
+* Zhang, Yunke, Yiran Fan,  **Peijie Liu** , Fengli Xu, and Yong Li. "Cyber Food Swamps: Investigating the Impacts of Online-to-Offline Food Delivery Platforms on Healthy Food Choices." In   *Proceedings of the International AAAI Conference on Web and Social Media* , vol. 19, pp. 2260-2272. 2025.   [Link to Paper](https://ojs.aaai.org/index.php/ICWSM/article/view/35932)
+* **Liu, Peijie** , Fengli Xu, and Yong Li. "Token Signature: Predicting Chain-of-Thought Gains with Token Decoding Feature in Large Language Models."  *International Conference on Machine Learning* . PMLR, 2025.  [Link to Paper](https://arxiv.org/abs/2506.06008)
 
 ---
 
