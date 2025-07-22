@@ -2,9 +2,15 @@
 
 ## 👋 About Me
 
-My name is  **Peijie Liu** , a master’s student in **Electronic Engineering** at **Tsinghua University** (2023–2026). I hold a bachelor’s degree in **Automation** from **Xi’an Jiaotong University** (2019–2023).
+My name is **Peijie Liu**, and I am currently pursuing a Master's degree in **Electronic Engineering** at **Tsinghua University**(2023–2026). I graduated with a Bachelor's degree in **Automation** from **Xi'an Jiaotong University**(2019–2023).
 
-My research focuses on  **Large Language Models (LLMs)** ,  **LLM Agents** , and  **Data Mining** , with a particular interest in applying intelligent systems to real-world decision-making problems.
+I have always been fascinated by the intersection of **artificial intelligence** and **real-world applications**. My research interests include **Large Language Models (LLMs)**, **LLM Agents**, and **Data Mining**, and I am particularly interested in exploring how these technologies can transform industries such as transportation, education, and decision-making.
+
+Outside of my academic work, I enjoy reading books on technology and society and love exploring new scientific developments. I am also passionate about **running** , **table tennis** and frequently enjoy hiking in nature, which helps me stay balanced and fuels my creativity.
+
+As a researcher, I am driven by a deep curiosity and the desire to make a meaningful impact on the world. I am excited to continue working on **AI-powered decision-making systems** and collaborate with other researchers to push the boundaries of **LLMs** and **data intelligence**.
+
+Feel free to connect with me if you're interested in discussing research, AI, or new ideas!
 
 ---
 
