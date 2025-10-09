@@ -22,7 +22,7 @@ Discovered that monotonicity in token probability distributions predicts the eff
 
 ### 2. 🚶 **Chain-of-Trips** – *Tsinghua–Guizhou Big Data Excellence Project* **[Awarded]**
 
-Collaborated with **Guizhou Zhicheng Technology** to build a large-scale dataset mapping travel diaries to reasoning chains. Leveraged a dual-phase **SFT + GRPO** pipeline to train an LLM-based reasoning simulator for travel surveys.
+Collaborated with **Guizhou Zhicheng Technology** to build a large-scale dataset mapping travel diaries to reasoning chains. Leveraged a two-stage **SFT** pipeline to train an LLM-based reasoning simulator for travel surveys.
 
 ### 3. 🤖 **AgentRecBench** – *NeurIPS 2025* **[Spotlight, Co-First Author]**
 
@@ -45,7 +45,7 @@ Analyzed **hundreds of millions** of records from Kuaishou and Bilibili to revea
 
 ## 📚 Education
 
-* **Tsinghua University**
+* **Tsinghua Universit**
 
   Master of Electronic Information, 2023 – 2026
 * **Xi’an Jiaotong University**
