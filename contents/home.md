@@ -16,7 +16,7 @@ Feel free to connect with me if you're interested in discussing research, AI, or
 
 ## 🧪 Research Experience
 
-### 1. 🔐 **Token Signature** – *ICML 2025* **[Accepted, First Author]**
+### 1. 🔐 **Token Signature** – *ICML 2025* **[Poster, First Author]**
 
 Discovered that monotonicity in token probability distributions predicts the effectiveness of Chain-of-Thought (CoT) prompting. Proposed two lightweight metrics and a **Dynamic CoT** framework that achieves **89.2% prediction accuracy** while reducing token usage by  **over 35%** .
 
@@ -24,7 +24,7 @@ Discovered that monotonicity in token probability distributions predicts the eff
 
 Collaborated with **Guizhou Zhicheng Technology** to build a large-scale dataset mapping travel diaries to reasoning chains. Leveraged a dual-phase **SFT + GRPO** pipeline to train an LLM-based reasoning simulator for travel surveys.
 
-### 3. 🤖 **AgentRecBench** – *NeurIPS 2025* **[Under Review, Co-First Author]**
+### 3. 🤖 **AgentRecBench** – *NeurIPS 2025* **[Spotlight, Co-First Author]**
 
 Built  **AgentSociety** , the first unified benchmark and simulator for  **LLM-agent-based recommender systems** . Supports classical, interest-evolution, and cold-start scenarios across 10+ baseline methods.
 
