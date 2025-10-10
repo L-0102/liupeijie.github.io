@@ -45,7 +45,7 @@ Analyzed **hundreds of millions** of records from Kuaishou and Bilibili to revea
 
 ## 📚 Education
 
-* **Tsinghua Universit**
+* **Tsinghua University**
 
   Master of Electronic Information, 2023 – 2026
 * **Xi’an Jiaotong University**
