@@ -37,7 +37,7 @@ Analyzed **hundreds of millions** of records from Kuaishou and Bilibili to revea
 ## 🛠 Skills & Tools
 
 * **Languages** : Python (PyTorch), Markdown, LaTeX
-* **Research** : LLMs, Agent Systems, Recommender Systems, Data Mining
+* **Research** : LLMs, Agentic Systems, Recommendation Systems, Data Mining
 * **Mindset** : Fast iteration, open-source adaptation, reproducible research
 * **Language** : English (CET-6, fluent)
 
