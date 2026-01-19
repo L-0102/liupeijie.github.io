@@ -20,7 +20,7 @@ Feel free to connect with me if you're interested in discussing research, AI, or
 
 Discovered that monotonicity in token probability distributions predicts the effectiveness of Chain-of-Thought (CoT) prompting. Proposed two lightweight metrics and a **Dynamic CoT** framework that achieves **89.2% prediction accuracy** while reducing token usage by  **over 35%** .
 
-### 2. 🚶 TravelReasoner – *Tsinghua–Guizhou Big Data Excellence Project* **[Awarded]**
+### 2. 🚶 TravelReasoner – *WWW 2026* [First Author]
 
 Collaborated with **Guizhou Zhicheng Technology** to build a large-scale dataset mapping travel diaries to reasoning chains. Leveraged a two-stage **SFT** pipeline to train an LLM-based reasoning simulator for travel surveys.
 
