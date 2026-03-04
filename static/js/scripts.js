@@ -8,6 +8,7 @@ const sections = [
 ];
 const section_names = sections.map(s => s.id);
 const THEME_STORAGE_KEY = 'site-theme';
+let heroBackgroundInstance = null;
 
 function getStoredTheme() {
     try {
@@ -132,6 +133,68 @@ function initReveal() {
     });
 }
 
+function initHeroTyping() {
+    const el = document.querySelector('.hero-keywords');
+    if (!el) {
+        return;
+    }
+    const fullText = el.textContent.trim();
+    if (!fullText) {
+        return;
+    }
+
+    el.textContent = '';
+    const textSpan = document.createElement('span');
+    const cursorSpan = document.createElement('span');
+    cursorSpan.className = 'hero-keywords-cursor';
+    cursorSpan.textContent = '|';
+    el.appendChild(textSpan);
+    el.appendChild(cursorSpan);
+
+    let index = 0;
+    const delay = 70;
+
+    function typeNext() {
+        if (index <= fullText.length) {
+            textSpan.textContent = fullText.slice(0, index);
+            index += 1;
+            window.setTimeout(typeNext, delay);
+        } else {
+            cursorSpan.classList.add('hero-keywords-cursor--blink');
+        }
+    }
+
+    typeNext();
+}
+
+function initHeroBackground() {
+    const section = document.querySelector('.top-section');
+    if (!section || !window.VANTA || !window.THREE) {
+        return;
+    }
+
+    if (heroBackgroundInstance && typeof heroBackgroundInstance.destroy === 'function') {
+        heroBackgroundInstance.destroy();
+        heroBackgroundInstance = null;
+    }
+
+    heroBackgroundInstance = window.VANTA.NET({
+        el: section,
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x3948d2,
+        backgroundAlpha: 0.0,
+        points: 10.0,
+        maxDistance: 22.0,
+        spacing: 16.0,
+    });
+}
+
 function loadMarkdownSections() {
     marked.use({ mangle: false, headerIds: false });
     section_names.forEach(name => {
@@ -163,6 +226,9 @@ window.addEventListener('DOMContentLoaded', () => {
     initTheme();
     initNav();
     loadConfig();
+
+    initHeroTyping();
+    initHeroBackground();
 
     document.querySelectorAll('section header, #avatar img').forEach(el => {
         el.classList.add('reveal');

@@ -2,6 +2,7 @@
 
 ### **Academic Achievements**
 
+* **First-Class Comprehensive Scholarship**, Tsinghua University, 2025
 * **Tsinghua–Guizhou Outstanding Professional Practice Award**, 2025
 * **Third-Class Scholarship**, Xi'an Jiaotong University, 2020–2021
 * **Outstanding Student**, Xi'an Jiaotong University, 2020
