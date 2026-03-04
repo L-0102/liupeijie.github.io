@@ -144,6 +144,10 @@ section .main-body:hover{
     background: radial-gradient(circle at top left, #141727, #1f2437) !important;
 }
 
+.bg-gradient-primary-to-secondary-neutral {
+    background: radial-gradient(circle at top left, #e5e7eb, #d1d5db) !important;
+}
+
 .bg-gradient-primary-to-secondary-dark section header h2,
 .bg-gradient-primary-to-secondary-dark .section-subtitle,
 .bg-gradient-primary-to-secondary-dark .main-body{
