@@ -3,11 +3,37 @@
 
 :root{
     --h-title-color:#3948d2;
+    --accent-gradient: linear-gradient(120deg, #3948d2, #9f1ae2);
 }
 
 .header {
     border-bottom: solid 2px var(--bs-blue);
+    backdrop-filter: blur(12px);
+    background: rgba(255, 255, 255, 0.92);
     z-index: 10000;
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.25rem;
+    width: 0;
+    height: 2px;
+    background-image: var(--accent-gradient);
+    transition: width 0.25s ease;
+}
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link:focus::after {
+    width: 100%;
 }
 
 .bg-bottom {
@@ -16,14 +42,16 @@
 
 .top-section {
     position: relative;
-    padding: 10rem 0;
+    padding: 9rem 0;
     background-position: center;
     background-size: cover;
-    height: 25rem;
+    background-attachment: fixed;
+    height: 24rem;
 }
 
 .top-section h2 {
     font-weight: 400;
+    text-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 .top-section .top-section-content {
@@ -38,32 +66,62 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: radial-gradient(circle at top left, rgba(57, 72, 210, 0.55), transparent 55%), rgba(0, 0, 0, 0.55);
 }
 
 section header h2{
     font-family: "Kanit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
     color: var(--h-title-color);
     font-size: 2.3rem;
-    line-height: 4rem;
+    line-height: 3.1rem;
+}
+
+.section-subtitle{
+    margin: 0.2rem 0 1.5rem 0;
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.5);
 }
 
 section .main-body{
-    font-size: 1.3rem;
-    font-weight: 200;
-    line-height: 2.4rem;
+    font-size: 1.15rem;
+    font-weight: 300;
+    line-height: 2.2rem;
+    background: rgba(255,255,255,0.92);
+    border-radius: 1.25rem;
+    padding: 1.75rem 1.9rem;
+    box-shadow: 0 18px 45px rgba(15, 23, 42, 0.12);
+    backdrop-filter: blur(10px);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
+section .main-body:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 26px 60px rgba(15, 23, 42, 0.18);
+}
 
 .bg-gradient-primary-to-secondary-light {
-    background: linear-gradient(45deg, #fcfcfc, #ffffff) !important;
+    background: radial-gradient(circle at top left, #f4f5ff, #ffffff) !important;
 }
 
 .bg-gradient-primary-to-secondary-gray {
-    background: linear-gradient(45deg, #f0f0f0, #f1f1f1) !important;
+    background: radial-gradient(circle at top left, #f2f2f5, #f4f4f4) !important;
 }
 
+.bg-gradient-primary-to-secondary-dark {
+    background: radial-gradient(circle at top left, #141727, #1f2437) !important;
+}
 
+.bg-gradient-primary-to-secondary-dark section header h2,
+.bg-gradient-primary-to-secondary-dark .section-subtitle,
+.bg-gradient-primary-to-secondary-dark .main-body{
+    color: #f9fafb;
+}
+
+.bg-gradient-primary-to-secondary-dark .main-body{
+    background: rgba(15,23,42,0.92);
+}
 
 .on-top {
     position: relative;
@@ -87,7 +145,6 @@ section .main-body{
     background: rgba(0, 0, 0, 0.4);
 }
 
-
 #avatar {
     position: relative;
     height: 0;
@@ -100,7 +157,9 @@ section .main-body{
 
 #avatar img {
     height: max(130px,min(200px,calc(100vw/6)));
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+    border-radius: 1.25rem;
+    border: 3px solid rgba(255, 255, 255, 0.85);
 }
 
 @media screen and (max-width: 991px) {
@@ -109,4 +168,36 @@ section .main-body{
     }
 }
 
+@media screen and (max-width: 576px) {
+    .top-section{
+        padding: 7rem 0 6rem 0;
+        height: auto;
+        background-attachment: scroll;
+    }
 
+    #avatar{
+        top: -70px;
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+    }
+
+    #avatar img{
+        height: 150px;
+    }
+
+    section .main-body{
+        padding: 1.4rem 1.3rem;
+    }
+}
+
+.reveal{
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.reveal-visible{
+    opacity: 1;
+    transform: translateY(0);
+}
